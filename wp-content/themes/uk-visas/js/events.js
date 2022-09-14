@@ -1,0 +1,1 @@
+(function($){"use strict";$('a[href^="tel:"]').click(function(){console.log("Tel clicked!");ga('send','event','CTA Click','click','Phone Number click');});$('a[href^="mailto:"]').click(function(){console.log("Mailto clicked!");ga('send','event','Mailto Click','click','Mail to click');});})(jQuery);

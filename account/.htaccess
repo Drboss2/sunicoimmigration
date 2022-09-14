@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^home home.php [NC,L]
+RewriteRule ^proof proof.php [NC,L]
+RewriteRule ^login index.php [NC,L]
